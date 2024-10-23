@@ -1,0 +1,611 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(231, 231, 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border-radius: 30px; */
+
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 60%;
+    height: auto;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.logo i{
+    color: rgb(81, 218, 86);
+}
+.logo h2{
+    font-size: 30px;
+
+}
+.list{
+    width: 30%;
+    height: auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    
+   
+}
+.list ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.list ul li{
+ list-style: none;
+
+}
+.list ul li:hover{
+    color: blue;
+   
+   }
+.button{
+    width: 10%;
+    /* background-color: antiquewhite; */
+}
+.button button{
+    height: 30px;
+    width: 90px;
+    background-color: transparent;
+    color: rgb(14, 14, 14);
+    border-radius: 2px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.button button:hover{
+   
+    background-color: black;
+    color: rgb(249, 244, 244);
+
+}
+.head{
+    width: 100%;
+    height: 250px;
+    /* background-color: bisque; */
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    
+}
+.text{
+    width: 50%;
+    height: 300px;
+    /* background-color: rgb(32, 84, 84); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.text h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.list-area{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.list-area ul li{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    
+
+}
+.list-area ul li i{
+    color: green;
+    font-size: 20px;
+    margin-right: 10px;
+    
+}
+
+/* end of head */
+
+
+.card-area{
+    height: 200px;
+    width: 90%;
+    /* background-color: blue; */
+    display: flex;
+    margin-top: 40px;
+    margin-left: 120px;
+    
+   
+
+}
+.card1{
+    height: 200px;
+    width: 35%;
+    /* background-color: aquamarine; */
+}
+.card1 h2{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.card1 hr{
+    margin-top: 8px;
+
+}
+.card1 h5{
+    margin-top: 20px;
+}
+.card h3{
+    font-size: 25px;
+}
+.card1 h3 em{
+    margin-left: 300px;
+    color: rgb(69, 68, 68);
+}
+
+.arrow{
+    width: 15%;
+    height: 200px;
+    /* background-color: blueviolet; */
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.arrow i{
+    font-size: 40px;
+}
+
+.card2{
+    height: 200px;
+    width: 35%; 
+    /* background-color: rgb(17, 62, 47); */
+}
+.card2 h2{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.card2 hr{
+    margin-top: 8px;
+
+}
+.card2 h5{
+    margin-top: 20px;
+}
+.card2 h3 em{
+    margin-left: 220px;
+    color: rgb(87, 83, 83);
+   
+}
+
+.button-area{
+    height: 200px;
+    width: 15%;
+    /* background-color: black; */
+}
+.button-area button{
+    width: 100px;
+    height: 50px;
+    border-radius: 18px;
+    background-color: rgb(32, 32, 238);
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.button-area button:hover{
+   
+    background-color: rgb(241, 241, 245);
+    color: rgb(38, 36, 36);
+    
+}
+
+/* end of card area */
+
+.small-list{
+    height: 100px;
+    width: 90%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.list1 ul li{
+    list-style: none;
+    font-size: 20px;
+    color: black;
+    
+
+
+}
+.list1 ul li:first-child{
+    color: rgb(55, 56, 56);
+    margin-bottom: 10px;
+}
+.list1 ul li i{
+    color: green;
+}
+
+.list2 ul li{
+    list-style: none;
+    font-size: 15px;
+    color: black;
+
+
+}
+.list2 ul li:first-child{
+    color: rgb(55, 56, 56);
+    margin-bottom: 10px;
+}
+.list2 ul li i{
+    color: green;
+}
+
+.list3 ul li{
+    list-style: none;
+    font-size: 15px;
+    color: black;
+
+
+}
+.list3 ul li:first-child{
+    color: rgb(55, 56, 56);
+    margin-bottom: 10px;
+}
+.list3 ul li i{
+    color: green;
+}
+
+.list4 ul li{
+    list-style: none;
+    font-size: 15px;
+    color: black;
+
+
+}
+.list4 ul li:first-child{
+    color: rgb(55, 56, 56);
+    margin-bottom: 10px;
+}
+.list4 ul li i{
+    color: rgb(216, 15, 15);
+}
+
+.list5 ul li{
+    list-style: none;
+    font-size: 15px;
+    color: black;
+
+
+}
+.list5 ul li:first-child{
+    color: rgb(55, 56, 56);
+    margin-bottom: 10px;
+}
+.list5 ul li i{
+    color: green;
+}
+
+.list6 ul li{
+    list-style: none;
+    font-size: 15px;
+    color: black;
+
+
+}
+.list6 ul li:first-child{
+    color: rgb(55, 56, 56);
+    margin-bottom: 10px;
+}
+.list6 ul li i{
+    color: green;
+}
+
+.list7 ul li{
+    list-style: none;
+    font-size: 15px;
+    color: black;
+
+
+}
+.list7 ul li:first-child{
+    color: rgb(55, 56, 56);
+    margin-bottom: 10px;
+}
+.list7 ul li i{
+    color: rgb(216, 13, 13);
+}
+
+
+@media (max-width:768px) {
+    .card{
+        width: 100%;
+        height: auto;
+        
+    }
+    .navbar{
+        width: 100%;
+        height: 50px;
+        
+    }
+    .logo{
+        width: 40%;
+        height: auto;
+       
+    }
+    .list{
+        width: 30%;
+        height: auto;
+        
+    }
+    .button{
+        width: 10%;
+        /* background-color: antiquewhite; */
+        padding: 20px;
+    }
+    .head{
+        width: 100%;
+        height: 250px;
+      
+    }
+    .text{
+        width: 50%;
+        height: 300px;
+       
+    }
+    .list-area{
+        width: 50%;
+        height: 300px;
+    }
+    .list-area ul li{
+        list-style: none;
+        font-size: 15px;
+    
+    }
+    .text h1{
+        font-size: 40px;
+    }
+    .card-area{
+        height: 200px;
+        width: 90%;
+        /* background-color: blue; */
+        display: flex;
+        margin-top: 40px;
+        margin-left: 120px;
+    
+    
+    }
+    .card1{
+        height: 200px;
+        width: 25%;
+        /* background-color: aquamarine; */
+    }
+    .card1 h3 em{
+        margin-left: 100px;
+        color: rgb(69, 68, 68);
+    }
+    
+    .card1 h2{
+        font-size: 22px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .arrow{
+        width: 15%;
+        height: 200px;
+        /* background-color: blueviolet; */
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .card2{
+        height: 200px;
+        width: 27%;
+        /* background-color: aquamarine; */
+    }
+    .card2 h2{
+        font-size: 22px;
+       
+    }
+    .card2 h3 {
+        font-size: 18px;
+    }
+    .card2 hr{
+        margin-top: 20px;
+    
+    }
+    .card2 h5{
+        margin-top: 20px;
+
+        
+    }
+    .card2 h3 em {
+        position: relative;
+       left: 80px;
+        color: rgb(87, 83, 83);
+        margin: 0;
+       
+    }
+    .card2 h3 i{
+        position: relative;
+       left: 80px;
+    }
+    .button-area button{
+        width: 100px;
+        height: 30px;
+        
+        font-size: 12px;
+    
+        margin-left: 50px;
+    }
+    .small-list{
+        height: 100px;
+        width: 90%;
+        /* background-color: aquamarine; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        gap: 40px;
+    }
+    .list1 ul li{
+        list-style: none;
+        font-size: 15px;
+        color: black;
+    
+    }
+    .list4 ul li{
+        list-style: none;
+        font-size: 14px;
+        color: black;
+    
+    
+    }
+
+}
+
+@media (max-width:480px) {
+    .card{
+        width: auto;
+        height: 900px;
+    }
+    .navbar{
+        width: 100%;
+        height: auto;
+    
+    }
+    .logo{
+        width: 50%;
+    }
+    .list{
+        display: none;
+    }
+    .button{
+        width: 50%;
+    }
+    
+    .head{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    .text{
+        width: 100%;
+        height: auto;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .list-area{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .list-area ul li{
+        font-size: 13px;
+    }
+    .card-area{
+        height: 200px;
+        width: 90%;
+        /* background-color: blue; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+        margin-left: 120px;
+    
+    }
+    .card1{
+        height: 200px;
+        width: 85%;
+        /* background-color: aquamarine; */
+    }
+    .card1 h2{
+        font-size: 25px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .card1 hr{
+        margin-top: 8px;
+        width: 70%;
+    
+    }
+    .card1 h5{
+        margin-top: 20px;
+    }
+    .card h3{
+        font-size: 25px;
+    
+    }
+    .card1 h3 em{
+        margin-left: 150px;
+        color: rgb(69, 68, 68);
+    }
+    .card2{
+        height: auto;
+        width: 85%;
+        /* background-color: aquamarine; */
+    }
+    .card2 h2{
+        font-size: 25px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .card2 hr{
+        margin-top: 8px;
+        width: 70%;
+    
+    }
+    .card2 h5{
+        margin-top: 20px;
+    }
+    .card2 h3{
+        font-size: 22px;
+    
+    }
+    .card2 h3 em{
+        margin-left: 20px;
+        color: rgb(69, 68, 68);
+    }
+    .arrow{
+        display: none;
+    }
+    .card2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+        
+    }
+    .small-list{
+       display: none;
+    }
+
+
+}
